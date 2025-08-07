@@ -1,0 +1,105 @@
+.cart-theme {
+  background-color: #0b1c33;
+  min-height: 100vh;
+  padding: 40px 20px;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.cart-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cart-item-card {
+  display: flex;
+  background-color: #132645;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+  margin-bottom: 20px;
+  padding: 15px;
+  align-items: center;
+}
+
+.cart-item-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.cart-item-details {
+  flex-grow: 1;
+}
+
+.price-info {
+  display: flex;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.discounted-price {
+  color: #00e6e6;
+  font-weight: bold;
+}
+
+.quantity {
+  margin: 5px 0;
+}
+
+.seller {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.remove-btn {
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.remove-btn:hover {
+  background-color: #c0392b;
+}
+
+.cart-total-box {
+  text-align: center;
+  background-color: #0f2b4e;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.2);
+}
+
+.pay-btn {
+  margin-top: 15px;
+  padding: 10px 24px;
+  font-size: 1rem;
+  background-color: #00e6e6;
+  color: #000;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.pay-btn:hover {
+  background-color: #00cccc;
+}
+
+.empty-cart-msg {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #ccc;
+  padding: 50px 0;
+}
